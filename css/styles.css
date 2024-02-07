@@ -1,0 +1,226 @@
+@charset "UTF-8";
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.logo {
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.epico {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 46px;
+  padding: 10px;
+  color: azure;
+  text-decoration: overline;
+  background-color: black;
+  font-weight: bold;
+}
+
+.conteniente, .contem {
+  display: flex;
+  justify-content: center;
+}
+
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+.carrusel .elemento {
+  flex: 1 0 auto;
+  margin: 10px;
+  display: flex;
+}
+.carrusel .elemento .tamaño {
+  display: flex;
+  width: 25rem;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 26px;
+  padding: 10px;
+  color: #fcfcfc;
+  text-shadow: 0 0 10px #e4e7e4, 0 0 20px #f3efef, 0 0 30px #fafffa;
+  background-color: black;
+  font-weight: bold;
+}
+
+.contem .tamanio {
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+}
+
+.loguiño {
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.letra {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.conteniente {
+  flex-wrap: wrap;
+}
+.conteniente .card {
+  background-color: rgb(246, 247, 218);
+  width: 220px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.conteniente .card .card-image {
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.car-1 {
+  background-image: url(../img/hyundai-cupehtml2.webp);
+}
+
+.car-2 {
+  background-image: url(../img/mazda-html2.webp);
+}
+
+.car-3 {
+  background-image: url(../img/subaro-html2.webp);
+}
+
+.car-4 {
+  background-image: url(../img/nissa-300html2.webp);
+}
+
+.car-5 {
+  background-image: url(../img/yoyo-86html.webp);
+}
+
+.car-6 {
+  background-image: url(../img/chevo-html2.webp);
+}
+
+.car-7 {
+  background-image: url(../img/hyundai-tibu2.jpg);
+}
+
+.card h3 {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: rgb(223, 75, 104);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.medio {
+  background-image: url(../img/imagen-fonfo.avif);
+  text-align: center;
+}
+
+.tito {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.mano {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  justify-content: center;
+}
+
+.topo {
+  background-color: aliceblue;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#map {
+  outline: 2px solid blue;
+  margin: 5em auto;
+  width: 40rem;
+  height: 40rem;
+}
+
+@media screen {
+  #map {
+    outline: 2px solid blue;
+    margin: 5em auto;
+    width: 100%;
+    height: 20rem;
+  }
+}
+#map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.yes {
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.yos {
+  background-color: rgb(0, 3, 8);
+  color: white;
+}
+
+.car-8 {
+  background-image: url(../img/tuning-externo.jpg);
+}
+
+.car-9 {
+  background-image: url(../img/arreglos-autos.png);
+}
+
+.car-10 {
+  background-image: url(../img/seguros.png);
+}
+
+.bobo {
+  background-color: black;
+}
+
+.logiño {
+  width: 3rem;
+  height: 3rem;
+  justify-content: center;
+}
+
+.foo {
+  background-color: rgb(2, 2, 2);
+  color: antiquewhite;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=styles.css.map */
